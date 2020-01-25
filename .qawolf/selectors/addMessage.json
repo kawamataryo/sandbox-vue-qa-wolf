@@ -1,0 +1,42 @@
+[
+ {
+  "index": 0,
+  "css": "[data-test='about-page-link']"
+ },
+ {
+  "index": 1,
+  "css": "[data-test='message-input']"
+ },
+ {
+  "index": 2,
+  "css": "[data-test='message-input']"
+ },
+ {
+  "index": 3,
+  "css": "[data-test='message-add-button']"
+ },
+ {
+  "index": 4,
+  "css": "[data-test='message-input']"
+ },
+ {
+  "index": 5,
+  "css": "[data-test='message-input']"
+ },
+ {
+  "index": 6,
+  "css": "[data-test='message-add-button']"
+ },
+ {
+  "index": 7,
+  "css": "[data-test='message-input']"
+ },
+ {
+  "index": 8,
+  "css": "[data-test='message-input']"
+ },
+ {
+  "index": 9,
+  "css": "[data-test='message-add-button']"
+ }
+]
