@@ -2,10 +2,10 @@
   <div>
     <v-row class="mb-5">
       <v-col cols="12" md="8">
-        <v-text-field v-model="state.messageInput" name="messageInput" />
+        <v-text-field data-test="message-input" v-model="state.messageInput" name="messageInput" />
       </v-col>
       <v-col cols="12" md="4">
-        <v-btn @click="addMessage" color="primary" block>add message</v-btn>
+        <v-btn @click="addMessage" data-test="message-add-button" color="primary" block>add message</v-btn>
       </v-col>
     </v-row>
     <v-card
@@ -13,6 +13,7 @@
       :key="i"
       class="mb-3"
       color="grey lighten-3"
+      :data-test="`message-card-${i + 1}`"
     >
       <v-card-text> {{ m }}</v-card-text>
     </v-card>

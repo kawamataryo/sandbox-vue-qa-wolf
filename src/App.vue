@@ -3,8 +3,8 @@
     <v-content>
       <v-container>
         <div class="text-center mb-5">
-          <router-link to="/">Home</router-link> |
-          <router-link to="/about">About</router-link>
+          <router-link to="/" data-test="home-page-link">Home</router-link> |
+          <router-link to="/about" data-test="about-page-link">About</router-link>
         </div>
         <router-view />
       </v-container>
