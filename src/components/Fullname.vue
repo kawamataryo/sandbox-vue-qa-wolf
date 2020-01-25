@@ -4,19 +4,18 @@
       <v-col cols="12" md="4">
         <v-text-field
           v-model="state.firstname"
-          :counter="10"
           label="First name"
         />
       </v-col>
       <v-col cols="12" md="4">
         <v-text-field
           v-model="state.lastname"
-          :counter="10"
           label="Last name"
         />
       </v-col>
       <v-col cols="12" md="4">
-        <v-text-field v-model="fullname" readonly label="Full name" />
+        <p class="mb-1 body-2">Full name</p>
+        <p class="font-weight-bold">{{ fullname }}</p>
       </v-col>
     </v-row>
   </div>
