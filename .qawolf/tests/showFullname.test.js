@@ -1,5 +1,5 @@
 const { launch } = require("qawolf");
-const selectors = require("../selectors/createFullname");
+const selectors = require("../selectors/showFullname");
 
 describe('createFullname', () => {
   let browser;
