@@ -11,11 +11,6 @@
 import { createComponent } from "@vue/composition-api";
 import MessageList from "@/components/MessageList.vue";
 
-type State = {
-  messageInput: string;
-  messages: string[];
-};
-
 export default createComponent({
   name: "about",
   components: {

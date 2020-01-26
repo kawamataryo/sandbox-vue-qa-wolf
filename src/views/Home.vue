@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts">
-import { computed, createComponent, reactive } from "@vue/composition-api";
+import { createComponent } from "@vue/composition-api";
 import Fullname from "@/components/Fullname.vue";
 
 export default createComponent({
