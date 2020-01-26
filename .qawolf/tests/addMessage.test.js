@@ -5,7 +5,7 @@ describe('showMessage', () => {
   let browser;
 
   beforeAll(async () => {
-    browser = await launch({ url: "http://localhost:8084/" });
+    browser = await launch({ url: process.env.QAW_URL || "http://localhost:8084/" });
   });
 
   afterAll(() => browser.close());

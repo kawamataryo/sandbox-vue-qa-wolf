@@ -20,11 +20,12 @@ jobs:
       - run:
           command: |
             # # Start local server
-            yarn serve & npx wait-on http://localhost:3000
+            yarn serve & npx wait-on http://localhost:8080
             # # Start test
             npx qawolf test
           environment:
             QAW_ARTIFACT_PATH: /tmp/artifacts
+            QAW_URL: http://localhost:8080
 
       - store_artifacts:
           path: /tmp/artifacts
