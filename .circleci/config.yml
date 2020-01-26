@@ -18,6 +18,12 @@ jobs:
             - ./node_modules
 
       - run:
+          name: lint
+          command: |
+            mkdir -p /tmp/reports/eslint
+            yarn run lint --output-file /tmp/reports/eslint-results.xml
+
+      - run:
           name: Start test with QA Wolf
           command: |
             ## Start local server
