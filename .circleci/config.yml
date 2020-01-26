@@ -18,10 +18,11 @@ jobs:
             - ./node_modules
 
       - run:
+          name: Start test with QA Wolf
           command: |
-            # # Start local server
+            ## Start local server
             yarn serve & npx wait-on http://localhost:8080
-            # # Start test
+            ## Start test
             npx qawolf test
           environment:
             QAW_ARTIFACT_PATH: /tmp/artifacts
