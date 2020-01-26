@@ -1,42 +1,18 @@
 [
  {
   "index": 0,
-  "html": {
-   "ancestors": [
-    "<div class=\"v-text-field__slot\"></div>",
-    "<div class=\"v-input__slot\"></div>"
-   ],
-   "node": "<input id=\"input-10\" type=\"text\" labels=\"First name\"/>"
-  }
+  "css": "[data-test='firstname-input']"
  },
  {
   "index": 1,
-  "html": {
-   "ancestors": [
-    "<div class=\"v-text-field__slot\"></div>",
-    "<div class=\"v-input__slot\"></div>"
-   ],
-   "node": "<input id=\"input-10\" type=\"text\" labels=\"First name\"/>"
-  }
+  "css": "[data-test='firstname-input']"
  },
  {
   "index": 2,
-  "html": {
-   "ancestors": [
-    "<div class=\"v-text-field__slot\"></div>",
-    "<div class=\"v-input__slot\"></div>"
-   ],
-   "node": "<input id=\"input-10\" type=\"text\" labels=\"First name\"/>"
-  }
+  "css": "[data-test='firstname-input']"
  },
  {
   "index": 3,
-  "html": {
-   "ancestors": [
-    "<div class=\"v-text-field__slot\"></div>",
-    "<div class=\"v-input__slot\"></div>"
-   ],
-   "node": "<input id=\"input-13\" type=\"text\" labels=\"Last name\"/>"
-  }
+  "css": "[data-test='lastname-input']"
  }
 ]
