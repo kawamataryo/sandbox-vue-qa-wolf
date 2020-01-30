@@ -1,5 +1,5 @@
 # sandbox-vue-qa-wolf
-QA Wolfs test sample repository with Vue.js.
+QA Wolf test sample repository with Vue.js.  
 The following two tests are run in QA Wolf.
 
 **1. show fullname**
